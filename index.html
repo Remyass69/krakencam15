@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedded Video with Autoplay</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+        iframe {
+            width: 640px;
+            height: 640px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Eporner embedded iframe with autoplay explicitly allowed -->
+    <iframe id="videoFrame" width="640" height="640" 
+        src="https://www.eporner.com/embed/dXNl6mEmSjn/?autoplay=1&mute=1" 
+        frameborder="0" 
+        allow="autoplay; encrypted-media; fullscreen" 
+        allowfullscreen>
+    </iframe>
+
+</body>
+</html>
